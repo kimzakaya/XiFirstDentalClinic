@@ -688,8 +688,7 @@ nav.scrolled{border-color:var(--border);background:rgba(250,248,244,0.98)}
 }
 .map-box iframe {
   width: 100%;
-  height: calc(100% + 140px); /* 상단 라벨 영역을 가리기 위해 높이를 더 키움 */
-  margin-top: -70px;           /* 위로 밀어 올려서 정보창(라벨)이 잘리도록 설정 */
+  height: 100%;
   border: none;
   display: block;
 }
